@@ -27,7 +27,7 @@
     <div class="main-container">
 
 		<?php include "./include/navbar.php"; ?>
-        <div class="app-container" style="background-image: linear-gradient(#ffffff, #f0ca91); width:100%; height:953px;">
+        <div class="app-container" ">
 
 			<?php include "./include/sidebarGroup.php"; ?>
 

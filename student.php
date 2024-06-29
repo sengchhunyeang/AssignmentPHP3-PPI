@@ -22,8 +22,6 @@
 <div class="page-wrapper">
 
     <div class="main-container">
-
-		<?php include "./include/navbar.php"; ?>
         <div class="app-container bg-white" >
 
 			<?php include "./include/sidebarStd.php"; ?>

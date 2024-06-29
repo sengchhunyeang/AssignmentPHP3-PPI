@@ -1,6 +1,6 @@
    
  <!-- Sidebar wrapper start -->
-<nav id="sidebar" class="sidebar-wrapper" style="background-color: #1a73e8" >
+<nav id="" class="sidebar-wrapper" style="background-color: #1a73e8" >
 
 <!-- Sidebar profile starts -->
 <div class="sidebar-user-profile">

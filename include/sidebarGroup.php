@@ -1,16 +1,11 @@
    
- <!-- Sidebar wrapper start -->
-<nav id="sidebar" class="sidebar-wrapper" style="background-color: #1a73e8" >
 
-<!-- Sidebar profile starts -->
+<nav id="" class="sidebar-wrapper bg-info"  >
 <div class="sidebar-user-profile">
     <img src="./images/logo.png" width="150px" height="150px" class=" rounded-circle p-2 d-lg-flex d-none"
         alt="Bootstrap Gallery" />
     <h6 class="text-white profile-name lh-lg mt-2 text-truncate">វិទ្យាស្ថាន ពហុបច្ចេកទេសព្រះកុសមៈ</h6>
 </div>
-<!-- Sidebar profile ends -->
-
-<!-- Sidebar menu starts -->
 <div class="sidebarMenuScroll">
     <ul class="sidebar-menu">
         <li >
