@@ -36,17 +36,99 @@
                <div class="row">
                    <div class="col-lg-6 ">
                        <div class="box1 bg-white  shadow-lg rounded-5  p-1 m-1" style="width: 500px; height: 150px;">
-                           <div class=" text-center  py-1" style="height: 50px;">
-                               <i class="bi bi-people-fill" style="font-size: 1rem;"></i>
+                           <div class=" text-center  py-1 bg-dark mt-1 mx-2 me-2" >
+                               <i class="bi bi-people-fill" style="font-size: 2rem;"></i>
                            </div>
                            <div class="box-content text-center p-1">
-                               <h3 class="text-info" ">ចំនួនសិស្សសរុប</h3>
-                               <h4>សិស្សបានចុះ10នាក់</h4>
+                               <h4 class="text-info">ចំនួនសិស្សសរុប</h4>
+                               <h6 class="text-info">សិស្សបានចុះ10នាក់</h6>
                            </div>
+
                        </div>
                    </div>
-                   <div class="col-lg-6">
+                   <div class="col-lg-6 ">
+                       <div class="box1 bg-white  shadow-lg rounded-5  p-1 m-1" style="width: 500px; height: 150px;">
+                           <div class=" text-center  py-1 bg-dark mt-1 mx-2 me-2" >
+                               <i class="bi bi-lightbulb-off-fill"  style="font-size: 2rem;"></i>
+                           </div>
+                           <div class="box-content text-center p-1">
+                               <h4 class="text-info">ចំនួនសិស្សសរុប</h4>
+                               <h6 class="text-info">សិស្សបានចុះ10នាក់</h6>
+                           </div>
 
+                       </div>
+                   </div>
+                   <div class="col-lg-6 ">
+                       <div class="box1 bg-white  shadow-lg rounded-5  p-1 m-1" style="width: 500px; height: 150px;">
+                           <div class=" text-center  py-1 bg-dark mt-1 mx-2 me-2" >
+                               <i class="bi bi-tools" style="font-size: 2rem;"></i>
+                           </div>
+                           <div class="box-content text-center p-1">
+                               <h4 class="text-info">ចំនួនសិស្សសរុប</h4>
+                               <h6 class="text-info">សិស្សបានចុះ10នាក់</h6>
+                           </div>
+
+                       </div>
+                   </div>
+                   <div class="col-lg-6 ">
+                       <div class="box1 bg-white  shadow-lg rounded-5  p-1 m-1" style="width: 500px; height: 150px;">
+                           <div class=" text-center  py-1 bg-dark mt-1 mx-2 me-2" >
+                               <i class="bi bi-laptop"  style="font-size: 2rem;"></i>
+                           </div>
+                           <div class="box-content text-center p-1">
+                               <h4 class="text-info">ចំនួនសិស្សសរុប</h4>
+                               <h6 class="text-info">សិស្សបានចុះ10នាក់</h6>
+                           </div>
+
+                       </div>
+                   </div>
+                   <div class="col-lg-6 ">
+                       <div class="box1 bg-white  shadow-lg rounded-5  p-1 m-1" style="width: 500px; height: 150px;">
+                           <div class=" text-center  py-1 bg-dark mt-1 mx-2 me-2" >
+                               <i class="bi bi-broadcast-pin" style="font-size: 2rem;"></i>
+                           </div>
+                           <div class="box-content text-center p-1">
+                               <h4 class="text-info">ចំនួនសិស្សសរុប</h4>
+                               <h6 class="text-info">សិស្សបានចុះ10នាក់</h6>
+                           </div>
+
+                       </div>
+                   </div>
+                   <div class="col-lg-6 ">
+                       <div class="box1 bg-white  shadow-lg rounded-5  p-1 m-1" style="width: 500px; height: 150px;">
+                           <div class=" text-center  py-1 bg-dark mt-1 mx-2 me-2" >
+                               <i class="bi bi-kanban"  style="font-size: 2rem;"></i>
+                           </div>
+                           <div class="box-content text-center p-1">
+                               <h4 class="text-info">ចំនួនសិស្សសរុប</h4>
+                               <h6 class="text-info">សិស្សបានចុះ10នាក់</h6>
+                           </div>
+
+                       </div>
+                   </div>
+                   <div class="col-lg-6 ">
+                       <div class="box1 bg-white  shadow-lg rounded-5  p-1 m-1" style="width: 500px; height: 150px;">
+                           <div class=" text-center  py-1 bg-dark mt-1 mx-2 me-2" >
+                               <i class="bi bi-bank2" style="font-size: 2rem;"></i>
+                           </div>
+                           <div class="box-content text-center p-1">
+                               <h4 class="text-info">ចំនួនសិស្សសរុប</h4>
+                               <h6 class="text-info">សិស្សបានចុះ10នាក់</h6>
+                           </div>
+
+                       </div>
+                   </div>
+                   <div class="col-lg-6 ">
+                       <div class="box1 bg-white  shadow-lg rounded-5  p-1 m-1" style="width: 500px; height: 150px;">
+                           <div class=" text-center  py-1 bg-dark mt-1 mx-2 me-2" >
+                               <i class="bi bi-currency-exchange"  style="font-size: 2rem;"></i>
+                           </div>
+                           <div class="box-content text-center p-1">
+                               <h4 class="text-info">ចំនួនសិស្សសរុប</h4>
+                               <h6 class="text-info">សិស្សបានចុះ10នាក់</h6>
+                           </div>
+
+                       </div>
                    </div>
                </div>
 

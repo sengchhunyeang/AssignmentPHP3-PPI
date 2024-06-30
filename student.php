@@ -20,148 +20,138 @@
 
 <body>
 <div class="page-wrapper">
-
     <div class="main-container">
         <div class="app-container bg-white" >
-
 			<?php include "./include/sidebarStd.php"; ?>
             <div class="row">
                 <div class="col-sm-1">
                 </div>
                 <div class="col-sm-10 p-5">
-                    <h3 class="text-center bg-primary p-3 rounded-4 text-white">បញ្ចូលព័ត៌មានសិស្ស (Static Form)</h3>
-                    <form> <div class="row">
-                            <div class="col-sm-6">
-                                <div class="mb-3 mt-3">
-                                    <label for="name" class="form-label ">ឈ្មោះសិស្ស :</label>
-                                    <input type="text" class="form-control" id="sname" placeholder=" ">
+                    <h3 class="text-center bg-primary p-3 rounded-4 text-white">ចុះឈ្មោះសិស្ស</h3>
+                    <form>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label for="sname">ឈ្មោះសិស្ស:</label>
+                                    <input type="text" class="form-control" id="sname">
                                 </div>
                             </div>
-
-
-                            <div class="col-sm-3">
-                                <div class="mb-3 mt-3">
-                                    <label for="id" class="form-label ">អត្តលេខ :</label>
-                                    <input type="number" class="form-control" id="sid" placeholder=" ">
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label for="sid">លេខសម្គាល់:</label>
+                                    <input type="number" class="form-control" id="sid">
                                 </div>
                             </div>
-
-
-                            <div class="col-sm-3">
-                                <div class="mb-3 mt-3">
-                                    <label for="gender" class="form-label ">ភេទ :</label>
-                                    <select class="form-select" >
-                                        <option>-- Select Gender --</option>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label for="gender">ភេទ:</label>
+                                    <select class="form-control" id="gender">
+                                        <option>-- ជ្រើសរើសភេទ --</option>
                                         <option>ស្រី</option>
                                         <option>ប្រុស</option>
                                     </select>
                                 </div>
                             </div>
+                        </div>
 
-
-                            <div class="col-sm-3">
-                                <div class="mb-3 mt-3">
-                                    <label for="dob" class="form-label ">ថ្ងៃ ខែ ឆ្នាំ កំណើត :</label>
-                                    <input type="date" class="form-control" id="sdate" placeholder="">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label for="sage">អាយុ:</label>
+                                    <input type="number" class="form-control" id="sage">
                                 </div>
                             </div>
-
-                            <div class="col-sm-3">
-                                <div class="mb-3 mt-3">
-                                    <label for="age" class="form-label ">អាយុ :</label>
-                                    <input type="number" class="form-control" id="sage" placeholder=" ">
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label for="sdate">កាលបរិច្ឆេទកំណើត:</label>
+                                    <input type="date" class="form-control" id="sdate">
                                 </div>
                             </div>
-
-                            <div class="col-sm-6">
-                                <div class="mb-3 mt-3">
-                                    <label for="pob" class="form-label ">ទីកន្លែងកំណើត :</label>
-                                    <input type="text" class="form-control" id="spob" placeholder=" ">
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label for="pho">លេខទូរស័ព្ទ:</label>
+                                    <input type="number" class="form-control" id="pho">
                                 </div>
                             </div>
+                        </div>
 
-                            <div class="col-sm-6">
-                                <div class="mb-3 mt-3">
-                                    <label for="phn" class="form-label ">លេខទំនាក់ទំនង :</label>
-                                    <input type="number" class="form-control" id="pho" placeholder=" ">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label for="spob">ទីកន្លែងកំណើត:</label>
+                                    <input type="text" class="form-control" id="spob">
                                 </div>
                             </div>
-
-                            <div class="col-sm-6">
-                                <div class="mb-3 mt-3">
-                                    <label for="sadd" class="form-label ">អាសយដ្ឋាន :</label>
-                                    <input type="text" class="form-control" id="phn" placeholder="">
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label for="currentAddress">អាសយដ្ឋានបច្ចុប្បន្ន:</label>
+                                    <input type="text" class="form-control" id="currentAddress">
                                 </div>
                             </div>
-
-
-                            <div class="col-sm-6">
-                                <div class="mb-3 mt-3">
-                                    <label for="skill" class="form-label ">ជំនាញ :</label>
-                                    <select class="form-select" disabled>
-                                        <option>-- Select Skill --</option>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label for="skill">ជំនាញ:</label>
+                                    <select class="form-control" id="skill" >
+                                        <option>-- ជ្រើសរើសជំនាញ --</option>
                                     </select>
                                 </div>
                             </div>
+                        </div>
 
-                            <div class="col-sm-6">
-                                <div class="mb-3 mt-3">
-                                    <label for="shift" class="form-label ">ម៉ោងសិក្សា :</label>
-                                    <select class="form-select" disabled>
-                                        <option>-- Select Shift --</option>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label for="studyTime">ម៉ោងសិក្សា:</label>
+                                    <select class="form-control" id="studyTime" >
+                                        <option>-- ជ្រើសរើសម៉ោងសិក្សា --</option>
                                     </select>
                                 </div>
                             </div>
-
-                            <div class="col-sm-3">
-                                <div class="mb-3 mt-3">
-                                    <label for="year" class="form-label ">ឆ្នាំ :</label>
-                                    <select class="form-select" disabled>
-                                        <option>-- Select Year --</option>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label for="years">ឆ្នាំ:</label>
+                                    <select class="form-control" id="years" >
+                                        <option>-- ជ្រើសរើសឆ្នាំ --</option>
                                     </select>
                                 </div>
                             </div>
-
-                            <div class="col-sm-3">
-                                <div class="mb-3 mt-3">
-                                    <label for="group" class="form-label ">ក្រុម :</label>
-                                    <select class="form-select" disabled>
-                                        <option>-- Select Group --</option>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label for="team">ក្រុម:</label>
+                                    <select class="form-control" id="team" >
+                                        <option>-- ជ្រើសរើសក្រុម --</option>
                                     </select>
                                 </div>
                             </div>
+                        </div>
 
-                            <div class="col-sm-6">
-                                <div class="mb-3 mt-3">
-                                    <label for="anyFile" class="form-label ">បញ្ចូលរូបភាព (Static Image Upload):</label>
-                                    <input type="file" class="form-control" placeholder="" disabled>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label for="sgmail">អ៊ីម៉ែល:</label>
+                                    <input type="email" class="form-control" id="sgmail" placeholder="បញ្ចូលអ៊ីម៉ែល" >
                                 </div>
                             </div>
-
-
-                            <div class="col-sm-6">
-                                <div class="mb-3 mt-3">
-                                    <label for="sgmail" class="form-label ">E-Mail :</label>
-                                    <input type="gmail" class="form-control" id="sgmail" placeholder="" disabled>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label for="anyFile">រូបភាព (បញ្ចូលរូបភាពថ្មី):</label>
+                                    <input type="file" class="form-control" id="anyFile" >
                                 </div>
                             </div>
-
-
-                            <div class="col-sm-6">
-                                <div class="mb-3 mt-3">
-                                    <label for="pwd" class="form-label">ផ្សេងៗ (Static Input):</label>
-                                    <input type="number" class="form-control" name="status" disabled>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label for="status">ផ្សេងៗ:</label>
+                                    <input type="text" class="form-control" id="status" placeholder="បញ្ចូលព័ត៌មានផ្សេងទៀត" >
                                 </div>
                             </div>
+                        </div>
 
-                            <div class="col-sm-6 ">
-                                <div class="mb-3 mt-3 ">
-
-                                    <button type="submit" class="btn btn-primary" disabled>Save (Disabled)</button>
-
-                                    <button type="reset" class="btn btn-warning">Cancel</button>
-                                </div>
-
+                        <div class="row mt-4">
+                            <div class="col-md-12">
+                                <button type="submit" class="btn btn-success" >រក្សាទុក </button>
+                                <button type="reset" class="btn btn-danger">បោះបង់</button>
+                            </div>
+                        </div>
                     </form>
 
                 </div>
